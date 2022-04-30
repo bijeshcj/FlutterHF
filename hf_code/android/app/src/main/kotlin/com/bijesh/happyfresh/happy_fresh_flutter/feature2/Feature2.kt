@@ -6,4 +6,8 @@ class Feature2 {
         return "Feature2"
     }
 
+    fun trackEvent(){
+
+    }
+
 }
