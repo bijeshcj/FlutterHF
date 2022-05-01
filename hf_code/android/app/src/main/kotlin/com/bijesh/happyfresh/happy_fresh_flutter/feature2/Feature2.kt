@@ -7,6 +7,10 @@ class Feature2 {
         println("Feature1 branch has made this change on 30 apr 14:45")
     }
 
+    fun masterHotFix1(){
+        print("Hotfix1")
+    }
+
     fun about() : String{
         return "Feature2"
     }
