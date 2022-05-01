@@ -11,6 +11,10 @@ class Feature2 {
         print("Hotfix1")
     }
 
+    fun feature1HotFix2(){
+        print("Hotfix2")
+    }
+
     fun about() : String{
         return "Feature2"
     }
