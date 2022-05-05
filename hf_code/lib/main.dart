@@ -9,9 +9,13 @@ class HappyFreshApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  MaterialApp(
       home: Scaffold(
-        body: Center(
+        appBar: AppBar(
+          title: const Text('Happy Fresh'),
+          backgroundColor: Colors.blueGrey.shade900,
+        ),
+        body: const Center(
           child: Text('Hello HappyFresh!!!'),
         ),
       ),
