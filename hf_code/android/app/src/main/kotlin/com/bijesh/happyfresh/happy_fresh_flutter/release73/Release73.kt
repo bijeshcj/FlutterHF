@@ -6,4 +6,9 @@ class Release73 {
         return "Tis is release 73"
     }
 
+
+    fun smallChangesForBug(): String{
+        return "Small change"
+    }
+
 }
